@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registro de Hábito</title>
+  <link rel="stylesheet" href="habitos.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Registrar Hábito</h1>
+    <form>
+      <label for="nombre-habito">Nombre del Hábito:</label>
+      <input type="text" id="nombre-habito" name="nombre-habito" placeholder="Ej: Meditar" required>
+
+      <label for="descripcion-habito">Descripción del Hábito:</label>
+      <textarea id="descripcion-habito" name="descripcion-habito" rows="3" placeholder="Ej: Meditar 10 minutos cada día" required></textarea>
+
+      <label for="frecuencia-habito">Frecuencia del Hábito:</label>
+      <select id="frecuencia-habito" name="frecuencia-habito" required>
+        <option value="" disabled selected>Selecciona la frecuencia</option>
+        <option value="diario">Diario</option>
+        <option value="semanal">Semanal</option>
+        <option value="mensual">Mensual</option>
+      </select>
+
+      <div class="button-group">
+        <button type="submit" class="btn-create">Crear Hábito</button>
+        <button type="reset" class="btn-cancel">Cancelar</button>
+      </div>
+    </form>
+  </div>
+</body>
+</html>

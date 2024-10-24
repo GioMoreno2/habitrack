@@ -1,0 +1,126 @@
+/* Estilo global */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #e0f4ff;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+  }
+  
+  /* Encabezado */
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #4aa8e4;
+    padding: 10px 20px;
+    color: white;
+  }
+  
+  .logo img {
+    width: 50px;
+    border-radius: 10px;
+  }
+  
+  .nav a {
+    margin: 0 10px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .menu-icon {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+  }
+  
+  .menu-icon div {
+    width: 25px;
+    height: 3px;
+    background-color: white;
+  }
+  
+  /* Contenido principal */
+  .content {
+    text-align: center;
+    flex: 1;
+    padding: 20px;
+  }
+  
+  h1 {
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  
+  /* Días de la semana */
+  .days {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+  }
+  
+  .days span {
+    text-align: center;
+  }
+  
+  .day-number {
+    background-color: #4caf50;
+    color: white;
+    width: 25px;
+    height: 25px;
+    display: inline-block;
+    border-radius: 50%;
+    line-height: 25px;
+    margin-top: 5px;
+  }
+  
+  /* Tareas */
+  .tasks {
+    background-color: #b3e5fc;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .task {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #4aa8e4;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .task-icons span {
+    margin-left: 10px;
+    cursor: pointer;
+  }
+  
+  /* Footer */
+  .footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    padding: 10px 0;
+  }
+  
+  .footer img {
+    width: 40px;
+  }
+  
+  .add-button {
+    width: 60px;
+    height: 60px;
+    background-color: #4aa8e4;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    font-size: 32px;
+    cursor: pointer;
+  }
+  
